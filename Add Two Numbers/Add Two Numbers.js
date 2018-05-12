@@ -3,6 +3,5 @@
 function addTwonumbers (num1, num2){
     return num1 + num2;
    
-   }
-   
-   console.log(addTwonumbers(5, 6));
+}   
+console.log(addTwonumbers(5, 6));

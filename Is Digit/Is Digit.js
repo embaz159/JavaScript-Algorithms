@@ -1,5 +1,7 @@
-// Write a function that takes in a string and returns a boolean on whether or not it is a digit. A digit is defined as a number between 0-9.
-// Method 1 My method found on Mozilla
+/* Write a function that takes in a string and returns a boolean on whether or 
+not it is a digit. A digit is defined as a number between 0-9.*/
+
+//Method 1
 
 let array1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 

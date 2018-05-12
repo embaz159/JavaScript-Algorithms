@@ -1,4 +1,5 @@
 // Write a function that takes in a string and finds out if it is a valid time or not.
+
 // Method 1
 function isValidtime(time) {
     let timeArray = time.split(':');

@@ -1,4 +1,5 @@
-// Write a function that takes in a string and returns the largest word in an array.
+// Write a function that takes in a string and returns the largest word in the array.
+
 // Method 1
 function longestWord(str){
     let filteredArray = str.replace(/[\W_]/g, ' ').split(' ');

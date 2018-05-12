@@ -41,7 +41,6 @@ function uniqueValues2(arr1, arr2) {
 
     return uniqueArray
 }
-
 console.log(uniqueValues2([1, 2, 3, 5], [1, 2, 3, 4, 5]));
 console.log(uniqueValues2([1, "calf", 3, "piglet"], [7, "filly"]));
 console.log(uniqueValues2([2, 1, 3], [3, 2, 1]));

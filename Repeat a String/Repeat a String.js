@@ -1,4 +1,5 @@
-// Write a function that takes in a string and number that repeats the string that number of times
+// Write a function that takes in a string and number that repeats the string that number of times.
+
 // Method 1
 
 function repeatedString1(str, num) {
@@ -10,12 +11,8 @@ function repeatedString1(str, num) {
     }
 
     return repeatedString1;
-
 }
-
-
-
-console.log(repeatedString1('codegod', 2));
+console.log(repeatedString1('boohoo', 2));
 console.log(repeatedString1('google', 3));
 
 
@@ -28,11 +25,9 @@ function repeatedString1(str, num) {
         repeatedString1 += str
         num--;
     }
-
     return repeatedString1;
 }
-
-console.log(repeatedString1('codegod', 2));
+console.log(repeatedString1('boohoo', 2));
 console.log(repeatedString1('google', 3));
 
 //Method 3 Definitive method.
@@ -40,6 +35,5 @@ console.log(repeatedString1('google', 3));
 function repeatedString1(str, num) {
     return str.repeat(num);
 }
-
-console.log(repeatedString1('codegod', 2));
+console.log(repeatedString1('boohoo', 2));
 console.log(repeatedString1('google', 3));

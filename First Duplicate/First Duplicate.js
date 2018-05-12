@@ -1,5 +1,5 @@
-// write a function that takes in an array of positive 
-// numbers and returns the first number that is duplicated. If no duplicates occur return -1;
+/* Write a function that takes in an array of positive 
+numbers and returns the first number that is duplicated. If no duplicates occur return -1;*/
 
 function firstDuplicate(numArray) {
     let duplicateObject = {};

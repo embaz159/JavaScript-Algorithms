@@ -1,5 +1,6 @@
 // Write a function that takes in a string and reverses it's value.
-//Method 1 Original method
+
+//Method 1 Basic method
 function reverseString1(word){
     let reversedWord = word.split('');
     console.log(reversedWord);
@@ -8,21 +9,23 @@ function reverseString1(word){
     return reversedWord;
 }
 
-console.log(reverseString1('codegod'));
+console.log(reverseString1('laravel'));
 console.log(reverseString1('javascript'));
+console.log(reverseString2('algorithm'));
 
-//Method 2: Instead of using  reverse a string1's method this is a more efficient line of code
+//Method 2: More efficient method
 
 function reverseString2(word){
-    let reversedWord = word.split('').reverse().join(''); // Instead of using  reverse a string1's method this is a more efficient line of code
+    let reversedWord = word.split('').reverse().join(''); 
     
     return reversedWord;
 }
 
-console.log(reverseString2('codegod'));
+console.log(reverseString2('laravel'));
 console.log(reverseString2('javascript'));
+console.log(reverseString2('algorithm'));
 
-//Method 3 Cleaner code with only 1 iteration
+//Method 3 Definitive method with only 1 iteration
 
 function reverseString3(word){
     let reversedWord = '';
@@ -33,6 +36,6 @@ function reverseString3(word){
 
     return reversedWord;
 }
-
-    console.log(reverseString3('codegod'));
+    console.log(reverseString3('laravel'));
     console.log(reverseString3('javascript'));
+    console.log(reverseString2('algorithm'));

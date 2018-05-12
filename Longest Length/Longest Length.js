@@ -1,4 +1,5 @@
-//Write a function that takes in a string and returns the length of the longest string
+// Write a function that takes in a string and returns the length of the longest string
+
 //Method 1
 function longestWordLength1(str){
     let longestLength = 0;
@@ -14,12 +15,11 @@ function longestWordLength1(str){
     return longestLength;
 }
 
-    console.log(longestWordLength1('I ama coding god'));
+    console.log(longestWordLength1('I am a coding god'));
     console.log(longestWordLength1('I would like to work for Google'));
-    console.log(longestWordLength1("Aint no fun if the homie don't code none"));
+    console.log(longestWordLength1("These violent delights have violent ends"));
 
     //Method 2
-
     function longestWordLength2(str){
         let longestLength = 0;
         let strArray = str.split(' ');
@@ -33,12 +33,11 @@ function longestWordLength1(str){
         return longestLength;
     }   
     
-    console.log(longestWordLength2('I ama coding god'));
+    console.log(longestWordLength2('I am a coding god'));
     console.log(longestWordLength2('I would like to work for Google'));
-    console.log(longestWordLength2("Aint no fun if the homie don't code none"));
+    console.log(longestWordLength2("These violent delights have violent ends"));
 
         //Method 3
-
         function longestWordLength3(str){
             let longestLength = 0;
             let strArray = str.split(' ');
@@ -52,9 +51,9 @@ function longestWordLength1(str){
             return longestLength;
         }
         
-            console.log(longestWordLength3('I ama coding god'));
+            console.log(longestWordLength3('I am a coding god'));
             console.log(longestWordLength3('I would like to work for Google'));
-            console.log(longestWordLength3("Aint no fun if the homie don't code none"));
+            console.log(longestWordLength3("These violent delights have violent ends"));
 
             //Method 4
             //Using sort function
@@ -73,9 +72,9 @@ function longestWordLength1(str){
 
             }
 
-            console.log(longestWordLength4('I ama coding god'));
+            console.log(longestWordLength4('I am a coding god'));
             console.log(longestWordLength4('I would like to work for Google'));
-            console.log(longestWordLength4("Ain't no fun if the homie don't code none"));
+            console.log(longestWordLength4("These violent delights have violent ends"));
 
             //Method 5
             //Using sort function abbreviated method
@@ -90,9 +89,9 @@ function longestWordLength1(str){
 
             }
 
-            console.log(longestWordLength4('I ama coding god'));
+            console.log(longestWordLength4('I am a coding god'));
             console.log(longestWordLength4('I would like to work for Google'));
-            console.log(longestWordLength4("Ain't no fun if the homie don't code none"));
+            console.log(longestWordLength4("These violent delights have violent ends"));
 
             
             
@@ -108,6 +107,6 @@ function longestWordLength1(str){
 
             }
 
-            console.log(longestWordLength4('I ama coding god'));
+            console.log(longestWordLength4('I am a coding god'));
             console.log(longestWordLength4('I would like to work for Google'));
-            console.log(longestWordLength4("Ain't no fun if the homie don't code none"));
+            console.log(longestWordLength4("These violent delights have violent ends"));

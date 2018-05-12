@@ -1,4 +1,6 @@
-// Write a function that takes in an array of numbers and finds what number is missing between at 0 and largest value in an array.
+/* Write a function that takes in an array of numbers and 
+finds what number is missing between at 0 and largest value in an array.*/
+
 // Method
 
 function missingNumber2(numArr) {
